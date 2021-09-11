@@ -13,10 +13,14 @@
 		122A020826B12FEC00742035 /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A020726B12FEC00742035 /* SingletonPattern.swift */; };
 		122A81C326B14BA100742035 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A81C226B14BA100742035 /* BuilderPattern.swift */; };
 		123D74FF26B669FE00DF42EE /* PrototypePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D74FE26B669FE00DF42EE /* PrototypePattern.swift */; };
+		12558E4426E6187D00E00705 /* ProxyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12558E4326E6187D00E00705 /* ProxyPattern.swift */; };
+		1255D69B26E713CE00E00705 /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255D69A26E713CE00E00705 /* ChainOfResponsibilityPattern.swift */; };
 		125C8EFB26C6510A007A7654 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C8EFA26C6510A007A7654 /* AdapterPattern.swift */; };
 		1288F1F526CA820D003E5057 /* FilterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288F1F426CA820D003E5057 /* FilterPattern.swift */; };
 		1294268226D66DA100640D05 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1294268126D66DA100640D05 /* FacadePattern.swift */; };
 		12AB74E526CBCD130081F929 /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB74E426CBCD130081F929 /* CompositePattern.swift */; };
+		12B47EE826E604B8001789C0 /* FlyweightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47EE726E604B8001789C0 /* FlyweightPattern.swift */; };
+		12C1F0B726EB364F0099C411 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C1F0B626EB364F0099C411 /* CommandPattern.swift */; };
 		12F537D726CA156E00F4C3EB /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F537D626CA156E00F4C3EB /* BridgePattern.swift */; };
 		12FF022D26D3CD1600725D98 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FF022C26D3CD1600725D98 /* DecoratorPattern.swift */; };
 /* End PBXBuildFile section */
@@ -41,10 +45,14 @@
 		122A020726B12FEC00742035 /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		122A81C226B14BA100742035 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
 		123D74FE26B669FE00DF42EE /* PrototypePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePattern.swift; sourceTree = "<group>"; };
+		12558E4326E6187D00E00705 /* ProxyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyPattern.swift; sourceTree = "<group>"; };
+		1255D69A26E713CE00E00705 /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
 		125C8EFA26C6510A007A7654 /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		1288F1F426CA820D003E5057 /* FilterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPattern.swift; sourceTree = "<group>"; };
 		1294268126D66DA100640D05 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 		12AB74E426CBCD130081F929 /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
+		12B47EE726E604B8001789C0 /* FlyweightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPattern.swift; sourceTree = "<group>"; };
+		12C1F0B626EB364F0099C411 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		12F537D626CA156E00F4C3EB /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
 		12FF022C26D3CD1600725D98 /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +99,10 @@
 				12AB74E426CBCD130081F929 /* CompositePattern.swift */,
 				12FF022C26D3CD1600725D98 /* DecoratorPattern.swift */,
 				1294268126D66DA100640D05 /* FacadePattern.swift */,
+				12B47EE726E604B8001789C0 /* FlyweightPattern.swift */,
+				12558E4326E6187D00E00705 /* ProxyPattern.swift */,
+				1255D69A26E713CE00E00705 /* ChainOfResponsibilityPattern.swift */,
+				12C1F0B626EB364F0099C411 /* CommandPattern.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -152,15 +164,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1255D69B26E713CE00E00705 /* ChainOfResponsibilityPattern.swift in Sources */,
 				1294268226D66DA100640D05 /* FacadePattern.swift in Sources */,
 				12FF022D26D3CD1600725D98 /* DecoratorPattern.swift in Sources */,
 				122A81C326B14BA100742035 /* BuilderPattern.swift in Sources */,
 				12F537D726CA156E00F4C3EB /* BridgePattern.swift in Sources */,
+				12B47EE826E604B8001789C0 /* FlyweightPattern.swift in Sources */,
 				1288F1F526CA820D003E5057 /* FilterPattern.swift in Sources */,
 				123D74FF26B669FE00DF42EE /* PrototypePattern.swift in Sources */,
 				1221ED6226AFE14700CC2FF6 /* main.swift in Sources */,
+				12558E4426E6187D00E00705 /* ProxyPattern.swift in Sources */,
 				1221ED6926AFE1BB00CC2FF6 /* FactoryPattern.swift in Sources */,
 				12AB74E526CBCD130081F929 /* CompositePattern.swift in Sources */,
+				12C1F0B726EB364F0099C411 /* CommandPattern.swift in Sources */,
 				122A020826B12FEC00742035 /* SingletonPattern.swift in Sources */,
 				122A020626B0FF0A00742035 /* AbstractFactoryPattern.swift in Sources */,
 				125C8EFB26C6510A007A7654 /* AdapterPattern.swift in Sources */,

@@ -24,6 +24,10 @@ let demos : [DesignPatternDemo] = [
     CompositePatternDemo(),
     DecoratorPatternDemo(),
     FacadePatternDemo(),
+    FlyweightPatternDemo(),
+    ProxyPatternDemo(),
+    ChainOfResponsibilityPattern(),
+    CommandPatternDemo(),
 ]
 
 demos.forEach({
