@@ -28,6 +28,17 @@ let demos : [DesignPatternDemo] = [
     ProxyPatternDemo(),
     ChainOfResponsibilityPattern(),
     CommandPatternDemo(),
+    InterpreterPatternDemo(),
+    IteratorPatternDemo(),
+    MediatorPatternDemo(),
+    MementoPatternDemo(),
+    ObserverPatternDemo(),
+    StatePatternDemo(),
+    NullPatternDemo(),
+    StrategyPatternDemo(),
+    VisitorPatternDemo(),
+    MVCPatternDemo(),
+    BusinessDelegatePatternDemo(),
 ]
 
 demos.forEach({
