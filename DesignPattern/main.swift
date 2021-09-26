@@ -39,6 +39,8 @@ let demos : [DesignPatternDemo] = [
     VisitorPatternDemo(),
     MVCPatternDemo(),
     BusinessDelegatePatternDemo(),
+    CompositeEntityPatternDemo(),
+    DaoPatternDemo(),
 ]
 
 demos.forEach({
